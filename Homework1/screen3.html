@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Екран 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style3.css" />
+  <script src="https://kit.fontawesome.com/72e64c200d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="header">
+    <label>Flutter</label>
+    <form class="search">
+      <input type="text" placeholder="Search" name="search">
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+  </div>
+  <div class="mainForm">
+    <div id="mainContent">
+      <section class="main">
+        <img src="Profile.png" alt="Profile Image">
+        <label><b>Martin Hristov</b></label>
+      </section>
+      <section class="posts">
+        <ul>
+          <li>
+            <label><b>Posts</b></label>
+            <label><b>1</b></label>
+          </li>
+          <li>
+            <label><b>Reactions</b></label>
+            <label><b>7</b></label>
+          </li>
+        </ul>
+        <div>
+          <input type="button" id="logout" value="Log Out"  onclick="window.location.href='screen1.html'"/>
+        </div>
+      </section>
+    </div>
+    <div id="Comments">
+      <section class="Comment">
+        <img src="Profile.png" alt="Profile Image">
+        <input type="text" placeholder="Say something">
+        <button type="submit"><i class="far fa-comment-alt"></i></button>
+      </section>
+      <article class="Post">
+        <div><img src="Profile.png" alt="Profile Image" class="postImg"></div>
+        <div>
+          <div>
+            <ul>
+              <div>
+                <li>
+                  <label><b>Ivan Ivanov</b></label>
+                </li>
+                <li>
+                  <i class="fas fa-circle"></i>
+                </li>
+                <li>
+                  <label>0 seconds ago</label>
+                </li>
+              </div>
+              <li>
+                <button type="reset"><i class="fas fa-times"></i></button>
+              </li>
+            </ul>
+            <p>Ex eu non voluptate esse alliqua velit.
+              Nulla duis ipsum incididunt culpa laborum commodo
+              consequat in. Nostrud elit dolor laboris tempor
+              officia duis exercitation anim voluptate ut enim
+              officia proident. Labore elit esse velit quis et
+              voluptate officia laboris cillum dolor pariatur
+              excepteur esse laborum. Veniam adipisicing quis
+              nisi cillum voluptate veniam nulla sunt.</p>
+          </div>
+          <div>
+            <div>
+              <button type="button"><i class="far fa-thumbs-up"></i></button>
+              <label>5</label>
+            </div>
+            <div>
+              <button type="button"><i class="far fa-thumbs-down"></i></button>
+              <label>3</label>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="Post">
+        <div><img src="Profile.png" alt="Profile Image" class="postImg"></div>
+        <div>
+          <div>
+            <ul>
+              <div>
+                <li>
+                  <label><b>Ivan Ivanov</b></label>
+                </li>
+                <li>
+                  <i class="fas fa-circle"></i>
+                </li>
+                <li>
+                  <label>Last month</label>
+                </li>
+              </div>
+              <li>
+                <button type="reset"><i class="fas fa-times"></i></button>
+              </li>
+            </ul>
+            <p>Mollit consequat ipsum sit laboris incididunt
+              sunt deserunt velit elit eu proident.</p>
+          </div>
+          <div>
+            <div>
+              <button type="button"><i class="far fa-thumbs-up"></i></button>
+              <label>3</label>
+            </div>
+            <div>
+              <button type="button"><i class="far fa-thumbs-down"></i></button>
+              <label>0</label>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</body>
+</html>
